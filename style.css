@@ -1,0 +1,40 @@
+/*
+Classes for grouped items
+No inline styling
+A separate stylesheet linked to your html page
+Place all stylesheets inside a /css directory
+Add color and style to the text and background, edit borders, text, and spacing
+A Google Font
+*/
+
+body   {
+  background-image: url("http://static.indianexpress.com/m-images/M_Id_94585_puppy_love.jpg");
+  background: transparent\9;
+  padding-left: 0px;
+  align-items: center;
+}
+
+
+
+img {
+  max-width: 250px;
+  max-height: 250px;
+}
+
+section1 {
+      border: 1px solid white;
+      border-radius: 8px;
+      background-color:rgba(0, 0, 150, 0.5);
+}
+
+section2 {
+      border: 1px solid white;
+      border-radius: 8px;
+      background-color:rgba(0, 150, 0, 0.5);
+}
+
+section3 {
+      border: 1px solid white;
+      border-radius: 8px;
+      background-color:rgba(200, 10, 0, 0.5);
+}
